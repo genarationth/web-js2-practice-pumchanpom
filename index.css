@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Thai&family=Source+Serif+Pro&family=Tilt+Neon&display=swap');
+
+body {
+    text-align: center;
+    font-family: 'Tilt Neon', cursive; 
+}
+
+input {
+    background-color: wheat;
+    border-radius: 16px;
+    width: 150px;
+    border: none;
+    color: brown;
+    font-family: 'Tilt Neon', cursive; 
+    padding: 8px 8px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 4px;
+    cursor: pointer;
+}
+
+#personalData {
+    border-radius: 16px;
+    margin: 30px 40px;
+    padding: 32px;
+    color: brown;
+    font-family: 'Tilt Neon', cursive;
+    font-size: 30px;  
+}
+
+#card {
+    /* width: 20rem; */
+    white-space: nowrap;
+    max-width: 100%;
+    background-color: #d9ede1;
+    border-radius: 16px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+#card-title {
+    text-align: left;
+    color: brown;
+}
+
+td {
+    padding-left: 20px;
+    text-align: right;
+}
+
+th {
+    text-align: left;
+}
