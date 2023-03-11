@@ -30,9 +30,6 @@ let askThai = () => {
     }
     alert("ขอบคุณครับ นี่คือคำตอบของคุณครับ: " + replyThai);
     let messageThai = `สวัสดี เราชื่อ${replyThai[0]} เราอาศัยอยู่ที่ประเทศ${replyThai[1]} เราชอบ${replyThai[2]}`
-    document.getElementById("personalData").innerHTML = messageThai;
-    let getId = ["name-thai-reply", "country-thai-reply", "hobby-thai-reply"];
-    let output = [replyThai[0], replyThai[1], replyThai[2]];
     findId("personalData", messageThai);
     findId("name", replyThai[0]);
     findId("country", replyThai[1]);
